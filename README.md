@@ -1,2 +1,7 @@
-# Interfaces Naturales ANDROID
-Este repositorio contendrá la App Móvil (Android), para Alumnos y Profesores de la Práctica 1 de Interfaces Naturales. 
+# InterfacesNaturalesAndroid
+
+A new Flutter project.
+
+## Getting Started
+
+FlutterFlow projects are built to run on the Flutter _stable_ release.
