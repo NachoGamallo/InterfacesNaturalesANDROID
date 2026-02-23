@@ -15,4 +15,4 @@ export '/tutorial_folder/alumn_subjects_tutorial/alumn_subjects_tutorial_widget.
     show AlumnSubjectsTutorialWidget;
 export '/tutorial_folder/details_subject_tutorial/details_subject_tutorial_widget.dart'
     show DetailsSubjectTutorialWidget;
-export '/pantallatest/pantallatest_widget.dart' show PantallatestWidget;
+export '/pantallatest2/pantallatest2_widget.dart' show Pantallatest2Widget;

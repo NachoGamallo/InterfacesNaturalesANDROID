@@ -2,28 +2,28 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'pantallatest_model.dart';
-export 'pantallatest_model.dart';
+import 'pantallatest2_model.dart';
+export 'pantallatest2_model.dart';
 
-class PantallatestWidget extends StatefulWidget {
-  const PantallatestWidget({super.key});
+class Pantallatest2Widget extends StatefulWidget {
+  const Pantallatest2Widget({super.key});
 
-  static String routeName = 'pantallatest';
-  static String routePath = '/pantallatest';
+  static String routeName = 'pantallatest2';
+  static String routePath = '/pantallatest2';
 
   @override
-  State<PantallatestWidget> createState() => _PantallatestWidgetState();
+  State<Pantallatest2Widget> createState() => _Pantallatest2WidgetState();
 }
 
-class _PantallatestWidgetState extends State<PantallatestWidget> {
-  late PantallatestModel _model;
+class _Pantallatest2WidgetState extends State<Pantallatest2Widget> {
+  late Pantallatest2Model _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => PantallatestModel());
+    _model = createModel(context, () => Pantallatest2Model());
   }
 
   @override

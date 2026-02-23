@@ -125,9 +125,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => DetailsSubjectTutorialWidget(),
         ),
         FFRoute(
-          name: PantallatestWidget.routeName,
-          path: PantallatestWidget.routePath,
-          builder: (context, params) => PantallatestWidget(),
+          name: Pantallatest2Widget.routeName,
+          path: Pantallatest2Widget.routePath,
+          builder: (context, params) => Pantallatest2Widget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

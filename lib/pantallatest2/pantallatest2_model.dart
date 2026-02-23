@@ -1,8 +1,8 @@
 import '/flutter_flow/flutter_flow_util.dart';
-import 'pantallatest_widget.dart' show PantallatestWidget;
+import 'pantallatest2_widget.dart' show Pantallatest2Widget;
 import 'package:flutter/material.dart';
 
-class PantallatestModel extends FlutterFlowModel<PantallatestWidget> {
+class Pantallatest2Model extends FlutterFlowModel<Pantallatest2Widget> {
   @override
   void initState(BuildContext context) {}
 
