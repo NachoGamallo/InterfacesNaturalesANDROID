@@ -58,6 +58,8 @@ class _CareerCardWidgetState extends State<CareerCardWidget>
           !anim.applyInitialState),
       this,
     );
+
+    WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {}));
   }
 
   @override

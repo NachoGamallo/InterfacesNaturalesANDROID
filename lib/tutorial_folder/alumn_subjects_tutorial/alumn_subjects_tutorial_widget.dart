@@ -39,6 +39,8 @@ class _AlumnSubjectsTutorialWidgetState
           createPageWalkthrough(context));
       _model.tutorialPreviewSubjectsController?.show(context: context);
     });
+
+    WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {}));
   }
 
   @override

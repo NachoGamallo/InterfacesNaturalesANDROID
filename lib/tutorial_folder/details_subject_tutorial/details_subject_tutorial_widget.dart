@@ -40,6 +40,8 @@ class _DetailsSubjectTutorialWidgetState
           createPageWalkthrough(context));
       _model.tutorialSubjectDetailsController?.show(context: context);
     });
+
+    WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {}));
   }
 
   @override

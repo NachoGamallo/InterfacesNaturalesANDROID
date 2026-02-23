@@ -133,6 +133,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: AsdasdasWidget.routeName,
           path: AsdasdasWidget.routePath,
           builder: (context, params) => AsdasdasWidget(),
+        ),
+        FFRoute(
+          name: AsdasdWidget.routeName,
+          path: AsdasdWidget.routePath,
+          builder: (context, params) => AsdasdWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

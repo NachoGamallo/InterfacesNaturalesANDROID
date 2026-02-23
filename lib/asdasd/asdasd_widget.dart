@@ -2,28 +2,28 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'asdasdas_model.dart';
-export 'asdasdas_model.dart';
+import 'asdasd_model.dart';
+export 'asdasd_model.dart';
 
-class AsdasdasWidget extends StatefulWidget {
-  const AsdasdasWidget({super.key});
+class AsdasdWidget extends StatefulWidget {
+  const AsdasdWidget({super.key});
 
-  static String routeName = 'asdasdas';
-  static String routePath = '/asdasdas';
+  static String routeName = 'asdasd';
+  static String routePath = '/asdasd';
 
   @override
-  State<AsdasdasWidget> createState() => _AsdasdasWidgetState();
+  State<AsdasdWidget> createState() => _AsdasdWidgetState();
 }
 
-class _AsdasdasWidgetState extends State<AsdasdasWidget> {
-  late AsdasdasModel _model;
+class _AsdasdWidgetState extends State<AsdasdWidget> {
+  late AsdasdModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => AsdasdasModel());
+    _model = createModel(context, () => AsdasdModel());
 
     WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {}));
   }

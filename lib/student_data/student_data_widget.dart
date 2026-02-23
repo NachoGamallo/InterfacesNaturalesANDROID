@@ -79,6 +79,8 @@ class _StudentDataWidgetState extends State<StudentDataWidget> {
     _model.textController3 ??=
         TextEditingController(text: widget.user?.password);
     _model.textFieldFocusNode3 ??= FocusNode();
+
+    WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {}));
   }
 
   @override

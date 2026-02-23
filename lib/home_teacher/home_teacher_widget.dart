@@ -65,6 +65,8 @@ class _HomeTeacherWidgetState extends State<HomeTeacherWidget> {
           DepartmentStruct.maybeFromMap(_model.actualTeacherDepartment);
       safeSetState(() {});
     });
+
+    WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {}));
   }
 
   @override

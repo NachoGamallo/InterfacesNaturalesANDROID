@@ -56,6 +56,8 @@ class _HomeUserWidgetState extends State<HomeUserWidget> {
       _model.userCareer = CareerStruct.maybeFromMap(_model.userSelectedCareer);
       safeSetState(() {});
     });
+
+    WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {}));
   }
 
   @override

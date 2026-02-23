@@ -80,6 +80,8 @@ class _SubjectDetailsWidgetState extends State<SubjectDetailsWidget> {
       _model.record = RecordStruct.maybeFromMap(_model.subjectRelation);
       safeSetState(() {});
     });
+
+    WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {}));
   }
 
   @override

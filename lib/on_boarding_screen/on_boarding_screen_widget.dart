@@ -36,6 +36,8 @@ class _OnBoardingScreenWidgetState extends State<OnBoardingScreenWidget> {
         context.pushNamed(AccessScreenWidget.routeName);
       }
     });
+
+    WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {}));
   }
 
   @override

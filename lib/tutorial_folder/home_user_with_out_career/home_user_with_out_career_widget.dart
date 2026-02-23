@@ -41,6 +41,8 @@ class _HomeUserWithOutCareerWidgetState
           createPageWalkthrough(context));
       _model.homeAlumnWithOutCareerController?.show(context: context);
     });
+
+    WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {}));
   }
 
   @override

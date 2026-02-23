@@ -24,6 +24,8 @@ class _Pantallatest2WidgetState extends State<Pantallatest2Widget> {
   void initState() {
     super.initState();
     _model = createModel(context, () => Pantallatest2Model());
+
+    WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {}));
   }
 
   @override

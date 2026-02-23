@@ -24,6 +24,8 @@ class _YearCardWidgetState extends State<YearCardWidget> {
   void initState() {
     super.initState();
     _model = createModel(context, () => YearCardModel());
+
+    WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {}));
   }
 
   @override

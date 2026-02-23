@@ -96,6 +96,8 @@ class _AlumnSubjectsWidgetState extends State<AlumnSubjectsWidget> {
           .cast<SubjectStruct>();
       safeSetState(() {});
     });
+
+    WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {}));
   }
 
   @override

@@ -17,3 +17,4 @@ export '/tutorial_folder/details_subject_tutorial/details_subject_tutorial_widge
     show DetailsSubjectTutorialWidget;
 export '/pantallatest2/pantallatest2_widget.dart' show Pantallatest2Widget;
 export '/asdasdas/asdasdas_widget.dart' show AsdasdasWidget;
+export '/asdasd/asdasd_widget.dart' show AsdasdWidget;

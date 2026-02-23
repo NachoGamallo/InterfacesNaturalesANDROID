@@ -68,6 +68,8 @@ class _ListAlumnsPerSubjectWidgetState
           .cast<UserStruct>();
       safeSetState(() {});
     });
+
+    WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {}));
   }
 
   @override

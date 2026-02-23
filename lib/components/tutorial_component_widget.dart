@@ -31,6 +31,8 @@ class _TutorialComponentWidgetState extends State<TutorialComponentWidget> {
   void initState() {
     super.initState();
     _model = createModel(context, () => TutorialComponentModel());
+
+    WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {}));
   }
 
   @override
