@@ -130,9 +130,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => Pantallatest2Widget(),
         ),
         FFRoute(
-          name: TestWidget.routeName,
-          path: TestWidget.routePath,
-          builder: (context, params) => TestWidget(),
+          name: AsdasdasWidget.routeName,
+          path: AsdasdasWidget.routePath,
+          builder: (context, params) => AsdasdasWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

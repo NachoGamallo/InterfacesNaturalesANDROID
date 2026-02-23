@@ -2,28 +2,28 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'test_model.dart';
-export 'test_model.dart';
+import 'asdasdas_model.dart';
+export 'asdasdas_model.dart';
 
-class TestWidget extends StatefulWidget {
-  const TestWidget({super.key});
+class AsdasdasWidget extends StatefulWidget {
+  const AsdasdasWidget({super.key});
 
-  static String routeName = 'test';
-  static String routePath = '/test';
+  static String routeName = 'asdasdas';
+  static String routePath = '/asdasdas';
 
   @override
-  State<TestWidget> createState() => _TestWidgetState();
+  State<AsdasdasWidget> createState() => _AsdasdasWidgetState();
 }
 
-class _TestWidgetState extends State<TestWidget> {
-  late TestModel _model;
+class _AsdasdasWidgetState extends State<AsdasdasWidget> {
+  late AsdasdasModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => TestModel());
+    _model = createModel(context, () => AsdasdasModel());
   }
 
   @override
